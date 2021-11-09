@@ -1,17 +1,17 @@
 # RateLimit
 
 Traffic shaping
+
 Requirement:
-      Create framework that can throttle client requests in distributed
-system.
-      Throttling could be on multiple level i.e per client, per endpoint
-etc.
-      In case client limit has breached the framework should reject the
-request with appropriate http status.
-      This framework can be included in any service to throttle client
+
+Create framework that can throttle client requests in distributed system. Throttling could be on multiple level i.e per client, per endpoint etc. In case client limit has breached the framework should reject the request with appropriate http status. This framework can be included in any service to throttle client
 requests accross all its instances.
+
+
 Exmaple:
-client: E-COM
+
+client: 
+E-COM
       limit:
            HOUR -> 100
 WEEK -> 900
